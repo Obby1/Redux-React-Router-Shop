@@ -2,7 +2,7 @@
 
 This is a simple shopping cart application built with React and Redux. It is currently deployed on surge:
 
-The application is deployed on [gratis-division.surge.sh](gratis-division.surge.sh).
+The application is deployed on [https://gratis-division.surge.sh](https://gratis-division.surge.sh).
 
 
 
