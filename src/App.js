@@ -30,3 +30,7 @@ const App = () => {
 };
 
 export default App;
+
+// To Do List:
+// Build Local Storage and hook and save cart to local storage
+// Add coupon codes and taxes
