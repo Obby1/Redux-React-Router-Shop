@@ -9,9 +9,16 @@ import Cart from './Cart';
 
 function Store() {
     const dispatch = useDispatch();
+    // useSelector to access redux's state.products to access product details and id
+    // const products = useSelector((state) =>
+    //     Object.entries(state.products).map(([id, product]) => ({ ...product, id }))
+    // );
     const products = useSelector((state) =>
-        Object.entries(state.products).map(([id, product]) => ({ ...product, id }))
+        state.products
+            ? Object.entries(state.products).map(([id, product]) => ({ ...product, id }))
+            : []
     );
+
 
     const handleAddToCart = (product) => {
         dispatch(addToCart(product));

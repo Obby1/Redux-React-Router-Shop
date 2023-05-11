@@ -7,6 +7,7 @@ import Cart from './Cart';
 
 const ProductDetails = () => {
     const { id } = useParams();
+    // useSelector to access specific product given it's id from params
     const product = useSelector(state => state.products[id]);
     const dispatch = useDispatch();
 
