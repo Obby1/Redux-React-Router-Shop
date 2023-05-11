@@ -1,4 +1,4 @@
-import { ADD_TO_CART, REMOVE_FROM_CART, SET_CART } from './actionTypes';
+import { ADD_TO_CART, REMOVE_FROM_CART } from './actionTypes';
 import data from './data.json';
 
 const initialState = {
@@ -42,12 +42,6 @@ const reducer = (state = initialState, action) => {
                 cart: newCart
             };
 
-        // case SET_CART:
-        //     return {
-        //         ...state,
-        //         cart: action.cart
-        //     };
-
         default:
             return state;
     }
@@ -55,14 +49,3 @@ const reducer = (state = initialState, action) => {
 
 
 export default reducer;
-
-
-
-        // case INITIALIZE_CART:
-        //     return {
-        //         ...state,
-        //         cart: action.cart.reduce((cart, item) => {
-        //             cart[item.id] = item;
-        //             return cart;
-        //         }, {})
-        //     };

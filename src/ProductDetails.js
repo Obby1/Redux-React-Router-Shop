@@ -10,11 +10,9 @@ const ProductDetails = () => {
     // useSelector to access specific product given it's id from params
     const product = useSelector(state => state.products[id]);
     const dispatch = useDispatch();
-
     const handleAddToCart = () => {
         dispatch(addToCart(product));
     };
-
 
     return (
         <div>
