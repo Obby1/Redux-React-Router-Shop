@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCart } from './actions';
+import { addToCart } from '../redux/actions';
 import { Card, Button } from 'react-bootstrap';
 import Cart from './Cart';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCart, removeFromCart } from './actions';
+import { addToCart, removeFromCart } from '../redux/actions';
 import { Row, Col } from 'react-bootstrap';
 import CartItem from './CartItem';
 

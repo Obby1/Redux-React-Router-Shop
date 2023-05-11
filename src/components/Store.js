@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import Product from './Product';
-import { addToCart } from './actions';
+import { addToCart } from '../redux/actions';
 import { Container, Row, Col } from 'react-bootstrap';
 import Cart from './Cart';
 
