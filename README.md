@@ -11,7 +11,7 @@ The application is deployed on surge [https://gratis-division.surge.sh](https://
 - Product listing
 - Add and remove products from the shopping cart
 - View product details
-- View total cost and number of items in the cart & nav
+- View total cost and number of items in the cart
 - Save cart data to local storage
 
 ## Setup and Installation
