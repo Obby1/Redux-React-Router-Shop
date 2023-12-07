@@ -1,6 +1,6 @@
 # React Redux Shopping Cart
 
-This is a simple shopping cart application built with React and Redux.
+This is a simple shopping cart application built to test out Redux functionality. 
 
 The application is deployed on surge [https://gratis-division.surge.sh](https://gratis-division.surge.sh).
 
